@@ -1,0 +1,30 @@
+/* Estilos propios de ContaGest (complementan a Bootstrap) */
+:root {
+  --verde-contagest: #39a900;
+  --verde-oscuro: #1f3a2e;
+}
+
+body {
+  background-color: #f6f8f6;
+}
+
+.navbar-contagest {
+  background-color: var(--verde-oscuro);
+}
+
+.btn-contagest {
+  background-color: var(--verde-contagest);
+  border-color: var(--verde-contagest);
+  color: #fff;
+}
+
+.btn-contagest:hover {
+  background-color: #2f8a00;
+  border-color: #2f8a00;
+  color: #fff;
+}
+
+.titulo-pagina {
+  color: var(--verde-oscuro);
+  font-weight: 700;
+}
